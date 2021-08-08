@@ -1,0 +1,132 @@
+*{
+    margin: 1;
+    padding: 0;
+
+}
+
+/* https://wallpapercave.com/wp/wp1971572.jpg */
+.body
+{
+    background-color: rgb(196, 32, 32);
+    background-image:url(https://assets.change.org/photos/1/kr/bs/TCkRBsRGFjlvBjn-800x450-noPad.jpg?1594493508);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    /* width:100%; 
+    height:100vh; */
+}
+
+.heading{
+    color: antiquewhite;
+    
+    font-size:55px;
+    position: relative;
+    margin-left: 500px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(121, 13, 13));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bolder;
+   margin-top: -10px;
+   }
+   .heading
+   {
+       background-image: repeating-radial-gradient(rgb(253, 253, 253) ,rgb(25, 64, 148));
+
+   }
+
+.navbar{
+	position: relative;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar ul{
+	float: left;
+	margin-left: 290px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 25px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 90px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active
+{
+    background: rgb(121, 9, 9);
+}
+.navbar ul li a:hover{
+	background: rgb(202, 57, 57);
+	border-radius: 2px;
+}
+.image1
+{
+    text-align: center;
+}
+.trailer
+{
+   
+    
+    font-size:30px;
+    text-align: center;
+    background-image: repeating-radial-gradient(rgb(255, 246, 246) ,rgb(25, 64, 148));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-bottom: 10px;
+   margin-top: -35px;
+   margin-bottom: -30px;
+  
+}
+.s1
+{
+  font-size:40px;
+    text-align: left;
+    background-image: repeating-radial-gradient(rgb(255, 246, 246) ,rgb(148, 25, 25));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+.ep1
+{
+    margin-top: 30px;
+    
+}
+.s2
+{
+  font-size:40px;
+    text-align: left;
+    background-image: repeating-radial-gradient(rgb(255, 246, 246) ,rgb(148, 25, 25));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+.ep2
+{
+    margin-top: 30px;
+    
+}
+.s3
+{
+  font-size:40px;
+    text-align: left;
+    background-image: repeating-radial-gradient(rgb(255, 246, 246) ,rgb(148, 25, 25));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+.ep3
+{
+    margin-top: 30px;
+    
+}

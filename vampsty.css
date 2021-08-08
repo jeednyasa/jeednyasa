@@ -1,0 +1,184 @@
+
+     
+     .body{
+        
+        /* background-repeat: no-repeat;
+        background-size:1500px;
+        background-position: 100px; */
+        background-color: rgb(0, 0, 0);
+        background-attachment: fixed;
+      }
+      .navbar{
+        position: relative;
+        height: 50px;
+        width: 100%;                                    /*  navbar border */
+        top: 20px;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+        padding-top: -200px;
+      }
+      
+      .navbar ul{
+        float: left;
+        margin-left: 5px;
+      }
+      .navbar ul li{
+        list-style: none;
+        margin: 0 8px;
+        display: inline-block;
+        line-height: 25px;
+      }
+      .navbar ul li a{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: white;                                  /* navbar words gap*/
+        padding: 8px 50px;
+        text-decoration: none;
+        transition: .4s;
+      }
+      .navbar ul li a.active
+      {
+          background: rgb(121, 9, 9);
+      }
+      .navbar ul li a:hover{
+        background: rgb(202, 57, 57);
+        border-radius: 8px;
+      }
+
+      .h2 {
+        color: rgb(248, 233, 236);
+      }
+      .whole
+
+      {
+        color: aliceblue;
+        margin: 30px;
+  
+      }
+      .heading{
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1.5cm;
+        background-image:repeating-radial-gradient(rgba(150, 8, 8, 0.863), rgb(17, 1, 1));
+        position: relative;
+      }
+      /* .heading
+      {
+        text-align:center ;
+        /* padding-right: 100px;
+       
+        margin-left: -180px; */
+       
+        /* margin-top: -10px; */
+       
+        /* padding-top: -1px; 
+        
+         
+      }*/
+      .poster
+      {
+        text-align: center;
+        margin-top: -3vh;
+        margin-left: -1vw;
+
+        
+      }
+      /* .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }   */
+      .trailer
+      {
+        font-size: 30px;
+        /* margin-left: 60px;
+        padding: 1px;
+         */
+         text-align: center;
+         background-image: repeating-radial-gradient(rgb(1, 1, 46),rgb(14, 13, 13));
+      }
+      .videos
+      {
+        text-align:center;
+      }
+      .top
+      {
+        margin-left: 10vw;
+        margin-top: -47vh;
+        
+      }
+      .tops
+      {
+        margin-left: 50vw;  
+        margin-top: -2vh;
+        
+        
+      }
+     
+     .scene
+     {
+         text-align: center;
+         margin-top: -5vh;
+     }
+      .series
+      {
+        font-size: 30px;
+        margin-left: 60px;
+        padding: 1px;
+        text-align: center;
+      }
+      .episodes
+      {
+        font-size: 30px;
+        margin-left: 60px;
+        padding: 1px;
+        
+        
+      }
+      nav a
+      {
+          padding: 35px;
+          
+      }
+      .similar
+      {
+          font-size: 30px;
+          text-align: center;
+          /* background-image: repeating-radial-gradient(rgb(1, 1, 46),rgb(14, 13, 13)); */
+      }
+      
+      .site1
+      {
+         
+          margin-left: 130px;
+          margin-top: -30px;
+      }
+      
+      .site2
+      {
+          margin-left: 660px;
+          margin-top: -280px;
+      }
+      .trans:hover
+      {
+          transform: translateY(-10px);
+      }
+      .trans
+      {
+        transition: transform 0.5s;
+      }
+      
+  
+     
+     
+     
+     
+
+
+
+
+
+    
